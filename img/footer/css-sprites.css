@@ -1,0 +1,35 @@
+.sprite_inst
+{
+background:url('css-sprite-combined.png') 0px -0px;
+width:34px;height:34px;
+display:inline-block;
+}
+
+.sprite_tw
+{
+background:url('css-sprite-combined.png') -34px -0px;
+width:34px;height:34px;
+display:inline-block;
+}
+
+.sprite_vk
+{
+background:url('css-sprite-combined.png') -68px -0px;
+width:34px;height:34px;
+display:inline-block;
+}
+
+.sprite_fb
+{
+background:url('css-sprite-combined.png') -102px -0px;
+width:34px;height:34px;
+display:inline-block;
+}
+
+.sprite_goo
+{
+background:url('css-sprite-combined.png') -136px -0px;
+width:34px;height:34px;
+display:inline-block;
+}
+

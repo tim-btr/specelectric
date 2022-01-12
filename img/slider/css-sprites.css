@@ -1,0 +1,49 @@
+.sprite_03
+{
+background:url('css-sprite-combined.png') 0px -17px;
+width:120px;height:35px;
+display:inline-block;
+}
+
+.sprite_04
+{
+background:url('css-sprite-combined.png') -120px -0px;
+width:96px;height:52px;
+display:inline-block;
+}
+
+.sprite_05
+{
+background:url('css-sprite-combined.png') -216px -19px;
+width:137px;height:33px;
+display:inline-block;
+}
+
+.sprite_06
+{
+background:url('css-sprite-combined.png') -353px -31px;
+width:135px;height:21px;
+display:inline-block;
+}
+
+.sprite_07
+{
+background:url('css-sprite-combined.png') -488px -2px;
+width:103px;height:50px;
+display:inline-block;
+}
+
+.sprite_01
+{
+background:url('css-sprite-combined.png') -591px -18px;
+width:69px;height:34px;
+display:inline-block;
+}
+
+.sprite_02
+{
+background:url('css-sprite-combined.png') -660px -17px;
+width:86px;height:35px;
+display:inline-block;
+}
+

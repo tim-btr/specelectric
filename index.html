@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Магазин электротоваров "Спецэлектрик"</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="/css/icons.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="wrapper">
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="header__row desktop-menu">
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li><a href="#">О магазине</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Как купить</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a class="menu__list_addresses" href="#">
+							<span></span>
+							Адреса магазинов
+						</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="register">
+					<div class="social-icons icons">
+						<a href="#" class="icons__fb"></a>
+						<a href="#" class="icons__tw"></a>
+						<a href="#" class="icons__goo"></a>
+						<a href="#" class="icons__vk"></a>
+						<a href="#" class="icons__inst"></a>
+					</div>
+					<div class="registration">
+						<a class="registration__in" href="#">
+							<span></span>
+							Войти
+						</a>
+						<a class="registration__up" href="#">
+							<span></span>
+							Регистрация
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__row mobile-menu">
+				<div class="mob-sign-in">
+					<span class="mob-sign-in__text">Войти</span>
+				</div>
+				<div class="mob-cart">
+					<span class="mob-cart__text">В корзине <span id="cart-num">0</span> товаров</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="header__panel">
+		<div class="container">
+			<div class="header__row header-panel-row">
+				<div class="header__logo logo">
+					<a href="/" class="logo__image">
+						<img src="/img/header/logo.png" alt="">
+					</a>
+					<span class="logo__slogan">
+						Интернет-магазин электроматериалов и инструментов
+					</span>
+					<span class="logo__slogan-mob">
+						Интернет-магазин
+					</span>
+				</div>
+				<div class="header__schedule schedule">
+					<div class="schedule__wrapper">
+						<div class="schedule__icon">
+							<img src="/img/header/icon_01.png" alt="">
+						</div>
+						<div class="schedule__contacts">
+							<a href=”tel:+74957614799” class="schedule__phone">+7 (495) 761-47-99</a>
+							<span class="schedule__time">Режим работы c <span>10:00 до 20:00</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="header__cart cart">
+					<div class="cart__wrapper">
+						<a href="#" class="cart__icon">
+							<img src="/img/header/icon_02.png" alt="">
+						</a>
+						<div class="cart__info">
+							<span class="cart__title">Корзина</span>
+							<span class="cart__summ">
+								Товаров <span>0</span> На сумму <span>0 руб.</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</header>			<div class="content">
+				<div class="container">
+					<div class="content__row">
+						<aside class="aside">
+							<div class="aside__block block aside__catalog">
+								<div class="block__title _angle-down">
+									<span>Каталог товаров</span>
+								</div>
+								<div class="block__item item">
+									<div class="item__body">
+										<a href="#" class="item__text _angle-right">
+											Автоматы Дифавтоматы 
+											УЗО Контакторы 
+											Предохранители Реле
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<form action="" class="aside-filter">
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Брэнд</span>
+									</span>
+									<div class="group-filter__toggle toggle-col">
+										<label>
+											<input type="checkbox" name="brand[]">
+											ABB
+										</label>
+										<label>
+											<input type="checkbox" name="brand[]">
+											IEK
+										</label>
+										<label>
+											<input type="checkbox" name="brand[]">
+											Schneider Electric
+										</label>
+										<label>
+											<input type="checkbox" name="brand[]">
+											КЭАЗ
+										</label>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Тип выключателя</span>
+									</span>
+									<div class="group-filter__toggle toggle-col">
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											Автомат
+										</label>
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											УЗО
+										</label>
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											Дифф. Автомат
+										</label>
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											Контактор
+										</label>
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											Реле
+										</label>
+										<label>
+											<input type="checkbox" name="switch-type[]">
+											Рубильник
+										</label>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Серия</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="serial[]">
+													S
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="serial[]">
+													SH
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Количество полюсов</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="polus-num[]">
+													1
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="polus-num[]">
+													2
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="polus-num[]">
+													3
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Номинальный ток</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													6
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													10
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													16
+												</label>
+											</div>
+										</div>
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													20
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													25
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													32
+												</label>
+											</div>
+										</div>
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													40
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-el[]">
+													63
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Номинальное напряжение</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-amper[]">
+													220
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-amper[]">
+													380
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Отключающая способность</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="esc[]">
+													4,5 кА
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="esc[]">
+													6 кА
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="esc[]">
+													10 кА
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Номинальный отключающий 
+											дифференциальный ток</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-diff[]">
+													10 мА
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-diff[]">
+													20 мА
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="nominal-diff[]">
+													30 мА
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Характеристика срабатывания</span>
+									</span>
+									<div class="group-filter__toggle toggle-table">
+										<div class="toggle-table__row">
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="char[]">
+													B
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="char[]">
+													C
+												</label>
+											</div>
+											<div class="toggle-table__col">
+												<label>
+													<input type="checkbox" name="char[]">
+													D
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="aside-filter__group group-filter">
+									<span id="aside-form-title" class="_caret-down">
+										<span>Крепление</span>
+									</span>
+									<div class="group-filter__toggle toggle-col">
+										<label>
+											<input type="checkbox" name="connect[]">
+											на DIN-рейку
+										</label>
+										<label>
+											<input type="checkbox" name="connect[]">
+											на DIN-рейку или монтажную плату
+										</label>
+										<label>
+											<input type="checkbox" name="connect[]">
+											на монтажную плату
+										</label>
+										<label>
+											<input type="checkbox" name="connect[]">
+											на панель через отверстия в корпусе
+										</label>
+										<label>
+											<input type="checkbox" name="connect[]">
+											винт
+										</label>
+									</div>
+								</div>
+								<div class="aside-filter__submit">
+									<input  type="submit" value="Показать товары">
+								</div>
+								<div class="aside-filter__reset">
+									<input type="reset" value="Сбросить фильтры">
+								</div>
+							</form>
+
+							<div class="aside__block block aside__services">
+								<div class="block__title">
+									<span>Услуги</span>
+								</div>
+								<div class="block__item item">
+									<div class="item__body">
+										<a href="#" class="item__text _angle-right">
+											Электромонтажные работы
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="aside__block block aside__useful">
+								<div class="block__title _angle-down">
+									<span>Полезная информация</span>
+								</div>
+							</div>
+						</aside>
+
+						<main class="main">
+							<div class="search-form">
+								<form action="" method="post" class="search-form__form">
+									<input type="text" name="search-request" placeholder="">
+									<button class="_search"></button>
+								</form>
+							</div>
+							<div class="fake-mob-menu">
+								<div class="fake-mob-menu__catalog">
+									<span>
+										Каталог
+									</span>
+								</div>
+								<div class="fake-mob-menu__shops">
+									<span>
+										Магазины
+									</span>
+								</div>
+							</div>
+							<div class="breadcrumbs">
+								<ul>
+									<li><a href="#" class="inactive _angle-right">Главная</a></li>
+									<li><a href="#" class="inactive _angle-right">Каталог</a></li>
+									<li><a href="#" class="active-link" onclick="return false;">Дифференциальные автоматические выключатели</a></li>
+								</ul>
+							</div>
+							<h1>Дифференциальные автоматические выключатели</h1>
+
+							<button id="mobili-filter-button" class="main__filter-mob">
+								Фильтр по параметрам
+							</button>
+
+							<div class="goods-block-mob">
+								<span>Товары</span>
+							</div>
+
+							<div class="catalog-form">
+								<form action="" method="post" class="catalog-form__form ">
+									<div class="catalog-form__group">
+										<span>Сортировать по:</span>
+										<select name="sorting-by" class="sorting-by">
+											<option selected name="popularity">Популярности</option>
+											<option name="price-desk">Цене</option>
+											<option name="price-asc">Рейтингу</option>
+										</select>
+									</div>
+									<div class="catalog-form__group">
+										<span>Отображать по:</span>
+										<select name="display-by">
+											<option selected name="display-by-1">1</option>
+											<option name="display-by-2">2</option>
+											<option name="display-by-3">3</option>
+											<option name="display-by-4">4</option>
+											<option name="display-by-5">5</option>
+											<option name="display-by-6">6</option>
+											<option name="display-by-7">7</option>
+											<option name="display-by-8">8</option>
+											<option name="display-by-9">9</option>
+											<option selected name="display-by-10">10</option>
+											<option name="display-by-11">11</option>
+											<option name="display-by-12">12</option>
+										</select>
+									</div>
+								</form>
+								<div class="pagination">
+									<div class="pagination__body">
+										<a href="#" class="prev _angle-left hidden"></a>
+										<div class="pagination__pages">
+											<a href="#" class="pagination__page pagination__active">1</a>
+											<a href="#" class="pagination__page">2</a>
+											<a href="#" class="pagination__page">3</a>
+											<a href="#" class="pagination__page">4</a>
+										</div>
+										<a href="#" class="next _angle-right"></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="catalog-form-mob">
+								<div class="catalog-form-mob__title">
+									<span>Сортировать по:</span>
+								</div>
+								<div class="catalog-form-mob__tabs">
+									<a href="#" class="catalog-form-mob__item active">
+										Популярности
+									</a>
+									<a href="#" class="catalog-form-mob__item">
+										Рейтингу
+									</a>
+									<a href="#" class="catalog-form-mob__item">
+										Цене
+									</a>
+								</div>
+							</div>
+
+							<div class="catalog-form-mobile">
+
+							</div>
+							<div class="main-catalog">
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0453
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_01.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>832 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0453
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_01.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>832 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0453
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_01.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>832 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0455
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_02.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный 
+													автоматический 
+													выключатель IEK АД12М</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>710 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0458
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_03.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>820 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0458
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_03.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>820 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0458
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_03.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>820 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0459
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_04.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный 
+													автоматический 
+													выключатель IEK АД12М</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>699</span> р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0453
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_01.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>832 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+								<div class="catalog-item item">
+									<div class="item__body">
+										<div class="item__articul">
+											<span class="item__inner-wrapper">
+												Артикул: А0453
+											</span>
+										</div>
+										<div class="item__image">
+											<a href="#">
+												<img src="/img/content/pic_01.jpg" alt="product-name">
+											</a>
+										</div>
+										<div class="item__name">
+											<a href="#">
+												<span class="item__inner-wrapper">Дифференциальный автоматический выключатель IEK АД14</span>
+											</a>
+										</div>
+										<div class="item__price">
+											Цена: <span>832 р.</span>	
+										</div>
+										<div class="item__add-cart add-cart">
+											<button>
+												<span class="add-cart__icon"></span>
+												<span class="add-cart__text">В корзину</span>
+											</button>
+										</div>
+										<div class="item__compare">
+											<form action="" method="post">
+												<label>
+													<input type="checkbox" name="compare-product">
+													Сравнить
+												</label>
+											</form>
+										</div>
+										<a href="#" class="item__link-mob _angle-right"></a>
+									</div>
+								</div>
+							</div>
+							<div class="pagination main__pagination">
+								<div class="pagination__body">
+									<a href="#" class="prev _angle-left hidden"></a>
+									<div class="pagination__pages">
+										<a href="#" class="pagination__page pagination__active">1</a>
+										<a href="#" class="pagination__page">2</a>
+										<a href="#" class="pagination__page">3</a>
+										<a href="#" class="pagination__page">4</a>
+									</div>
+									<a href="#" class="next _angle-right"></a>
+								</div>
+							</div>
+						</main>
+					</div>
+				</div>
+				
+				<div class="container slider-container">
+					<section class="slider">
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/01.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/02.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/03.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/04.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/05.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/06.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/07.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/01.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/02.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/03.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/04.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/05.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/06.png" alt="brand-logo">
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="#">
+								<img src="img/slider/07.png" alt="brand-logo">
+							</a>
+						</div>
+					</section>
+				</div>
+			</div>
+<footer class="footer">
+	<div class='container'>
+		<div class="footer__row">
+			<section class="footer__catalog catalog">
+				<div class="catalog__list">
+					<h3 class="catalog__header">Каталог товаров</h3>
+					<div class="catalog__wrapper">
+						<ul>
+							<li><a href="#">Автоматы Дифавтоматы УЗО Контакторы Предохранители Реле</a></li>
+							<li><a href="#">Электросчетчики Трансформаторы тока</a></li>
+							<li><a href="#">Бытовые принадлежности</a></li>
+							<li><a href="#">Инструменты и оборудование</a></li>
+							<li><a href="#">Кабель провод</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Кабельные каналы Гофра Металлорукав Аксессуары Крепеж</a></li>
+							<li><a href="#">Клеммы Сжимы Шины N PIN Изоляторы Кросс-модули</a></li>
+							<li><a href="#">Коробки распаячные и установочные Лампы Патроны Переходники</a></li>
+							<li><a href="#">Наконечники Гильзы Изолента Cтяжки Термоусадка</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">Розетки Вилки Выключатели Рамки Датчики движения</a></li>
+							<li><a href="#">Светотехника Блоки питания Стартера Дроссели</a></li>
+							<li><a href="#">Удлинители Сетевые фильтры Переходники Тройники Колодки</a></li>
+							<li><a href="#">Щиты Боксы Шкафы DIN-рейки</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog__nav mobile-nav">
+					<h3 class="catalog__header">О магазине</h3>
+					<div class="mobile-nav__options options">
+						<div class="options__deliver">
+							<span class="options__icon"></span>
+							<span class="options__text">Доставка и отлата</span>
+						</div>
+						<div class="options__how-to">
+							<span class="options__icon"></span>
+							<span class="options__text">Полезная информация</span>
+						</div>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="#">Новости</a> </li>
+							<li><a href="#">Как купить</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">О магазине</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Доставка</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			
+			<section class="footer__panel panel-footer">
+					<div class="panel-footer__subscribe">
+						<form action="" method="post">
+							<label for="" class="panel-footer__title footer__title">Подписка на рассылку</label>
+							<span class="panel-footer__form-wrapper form-wrapper">
+								<input type="email" name="email-address" placeholder="Введите ваш e-mail-адрес">
+								<button>Подписаться</button>
+							</span>
+						</form>
+					</div>
+					<div class="panel-footer__social">
+						<span class="panel-footer__form-wrapper social__wrapper">
+							<span class="panel-footer__title social__title">Мы в соцсетях</span>
+							<span class="panel-footer__icons icons">
+								<a href="#" class="icons__fb"></a>
+								<a href="#" class="icons__tw"></a>
+								<a href="#" class="icons__goo"></a>
+								<a href="#" class="icons__vk"></a>
+								<a href="#" class="icons__inst"></a>
+							</span>
+						</span>
+					</div>
+			</section>
+			<div class="footer__copy">
+				<p>2017 © СпецЭлектрик</p>
+			</div>
+		</div>
+	</div>
+</footer>		</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/sliders.js" ></script>
+<script src="js/main.js"></script>
+
+	</body>
+</html>
