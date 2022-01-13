@@ -472,7 +472,7 @@ body.ie .ibg img {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-image: url("/img/header/02.png");
+    background-image: url("../img/header/02.png");
   }
   .header .mobile-menu .mob-cart {
     -webkit-box-flex: 1;
@@ -496,7 +496,7 @@ body.ie .ibg img {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-image: url("/img/header/04.png");
+    background-image: url("../img/header/04.png");
   }
   .header .mobile-menu .mob-cart__text #cart-num {
     color: #fff;
