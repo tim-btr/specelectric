@@ -1,0 +1,47 @@
+/* Слайдер */
+section.slick-slider {
+    .flex(1 1 auto);
+    border: 1px solid #ededed;
+    .border-radius(8px);
+    position: relative;
+    padding: 10px 40px;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+        visibility: hidden;
+    }
+
+    .slick-list {
+        overflow: hidden;
+    }
+    .slick-track{
+        .display(flex);
+        .align-items(center);
+
+        .slick-slide{
+            .display(flex);
+            .justify-content(center);
+            .flex(1 0 auto);
+
+            img {
+                max-width: 100%;
+            }
+        }
+        
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top:50%;
+        .translateY(-50%);
+        z-index: 10;
+        background-color: transparent;
+        font-size: 2.9rem;
+        color:#cdcdcd;
+    }
+    .slick-prev{
+        left:15px;
+    }
+    .slick-next{
+        right:15px;
+    }
+}

@@ -1,0 +1,78 @@
+.anim(@_time, @_delay) {
+	-webkit-transition: all @_time ease @_delay;
+	-moz-transition: all @_time ease @_delay;
+	-ms-transition: all @_time ease @_delay;
+	-o-transition: all @_time ease @_delay;
+	transition: all @_time ease @_delay;
+}
+.anim_cubic(@_time, @_delay) {
+	-webkit-transition: all @_time cubic-bezier(0.68, -0.55, 0.265, 1.55) @_delay;
+	-moz-transition: all @_time cubic-bezier(0.68, -0.55, 0.265, 1.55) @_delay;
+	-ms-transition: all @_time cubic-bezier(0.68, -0.55, 0.265, 1.55)@_delay;
+	-o-transition: all @_time cubic-bezier(0.68, -0.55, 0.265, 1.55) @_delay;
+	transition: all @_time cubic-bezier(0.68, -0.55, 0.265, 1.55) @_delay;
+}
+.animate(@_name, @_time, @_infinite, @_type) {
+	-webkit-animation: @_name @_time @_infinite @_type;
+	-moz-animation: @_name @_time @_infinite @_type;
+	-o-animation: @_name @_time @_infinite @_type;
+	animation: @_name @_time @_infinite @_type;
+}
+.rotate(@_deg) {
+	-moz-transform: rotate(@_deg);
+	-ms-transform: rotate(@_deg);
+	-webkit-transform: rotate(@_deg);
+	-o-transform: rotate(@_deg);
+	transform: rotate(@_deg);
+}
+.scale(@_num) {
+	-moz-transform: scale(@_num);
+	-ms-transform: scale(@_num);
+	-webkit-transform: scale(@_num);
+	-o-transform: scale(@_num);
+	transform: scale(@_num);
+}
+.skew(@_num) {
+	-webkit-transform: skewX(@_num);
+	-moz-transform: skewX(@_num);
+	-ms-transform: skewX(@_num);
+	-o-transform: skewX(@_num);
+	transform: skewX(@_num);
+}
+.cnt(@_h) {
+	display: flex;
+	flex-direction: column;
+	height: @_h;
+	text-align: center;
+	align-items: stretch;
+	justify-content: center;
+}
+.tr(@_x, @_y, @_z) {
+	transform: translate3d(@_x, @_y, @_z);
+	-webkit-transform: translate3d(@_x, @_y, @_z);
+	-ms-transform: translate3d(@_x, @_y, @_z);
+	-o-transform: translate3d(@_x, @_y, @_z);
+	-moz-transform: translate3d(@_x, @_y, @_z);
+}
+.flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0;
+}
+.flexboxinline() {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.flexorder(@_val) {
+	-webkit-box-ordinal-group: @_val;
+	-moz-box-ordinal-group: @_val;
+	-ms-flex-order: @_val;
+	-webkit-order: @_val;
+	order: @_val;
+}
